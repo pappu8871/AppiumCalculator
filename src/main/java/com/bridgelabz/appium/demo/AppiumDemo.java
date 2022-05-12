@@ -1,4 +1,4 @@
-package com.bridgelabzappium;
+package com.bridgelabz.appium.demo;
 
 import io.appium.java_client.android.AndroidDriver;
 import org.openqa.selenium.By;
@@ -25,8 +25,7 @@ public static void main(String[]args)throws MalformedURLException{
    driver.findElement(By.xpath("//android.widget.Button[@content-desc=\"plus\"]")).click();
    driver.findElement(By.id("com.android.calculator2:id/digit_1")).click();
    String result = driver.findElement(By.id("com.android.calculator2:id/result")).getText();
-   System.out.println("Result"+ result);
-
+   System.out.println("Result" +   result);
 
 }
 }
